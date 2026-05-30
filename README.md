@@ -1,90 +1,90 @@
 # API Financial Control
 
-API REST desenvolvida com ASP.NET Core para gerenciamento financeiro pessoal.
+REST API developed with ASP.NET Core for personal financial management.
 
-## Sobre o Projeto
+## About the Project
 
-O objetivo deste projeto é fornecer uma solução para controle financeiro, permitindo o gerenciamento de:
+The goal of this project is to provide a financial management solution, allowing users to manage:
 
-- Usuários
-- Receitas
-- Despesas
-- Categorias
-- Metas financeiras
+- Users
+- Income
+- Expenses
+- Categories
+- Financial Goals
 
-## Tecnologias
+## Technologies
 
 - ASP.NET Core Web API
 - C#
-- Entity Framework Core (planejado)
-- SQL Server (planejado)
-- Swagger/OpenAPI
+- Entity Framework Core (planned)
+- SQL Server (planned)
+- Swagger / OpenAPI
 
-## Modelo de Domínio
+## Domain Model
 
 ```text
-Usuario
+User
    │
-   ├── Transacao
+   ├── Transaction
    │
-   └── Categoria
+   └── Category
 ```
 
-## Estrutura Atual
+## Current Structure
 
 ```text
 src/
 └── ApiFinancialControl
 ```
 
-## Como Executar
+## Getting Started
 
-### Restaurar dependências
+### Restore Dependencies
 
 ```bash
 dotnet restore
 ```
 
-### Executar aplicação
+### Run the Application
 
 ```bash
 dotnet run
 ```
 
-### Acessar Swagger
+### Access Swagger
 
 ```text
-https://localhost:<porta>/swagger
+https://localhost:<port>/swagger
 ```
 
 ## Roadmap
 
-### Fase 1
+### Phase 1
 
-- [ ] Configuração inicial da API
+- [ ] Initial API setup
 - [ ] Entity Framework Core
 - [ ] SQL Server
-- [ ] Migrations
+- [ ] Database Migrations
 
-### Fase 2
+### Phase 2
 
-- [ ] CRUD de Usuários
-- [ ] CRUD de Categorias
-- [ ] CRUD de Transações
+- [ ] User CRUD
+- [ ] Category CRUD
+- [ ] Transaction CRUD
 
-### Fase 3
+### Phase 3
 
-- [ ] Autenticação JWT
-- [ ] Metas Financeiras
-- [ ] Dashboard Financeiro
+- [ ] JWT Authentication
+- [ ] Financial Goals
+- [ ] Financial Dashboard
 
-### Fase 4
+### Phase 4
 
 - [ ] Docker
-- [ ] Testes Unitários
+- [ ] Unit Tests
 - [ ] GitHub Actions
 
-## Desenvolvido por
+## Developed By
 
 **John Victor do E. Santo**
 
