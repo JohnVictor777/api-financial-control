@@ -16,6 +16,5 @@ namespace ApiFinancialControl.Api.Features.API.Transaction.Models
         public TransactionType Type { get; set; }
         public DateTime TransactionDate { get; set; }
         public bool IsDeleted { get; set; }
-
     }
 }
